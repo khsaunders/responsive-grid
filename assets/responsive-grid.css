@@ -54,4 +54,8 @@ body {
 .grid-tile-icon:hover {
   color: #FEFFFF; }
 
+.grid-tile-desc {
+  display: none;
+  color: #FEFFFF; }
+
 /*# sourceMappingURL=responsive-grid.css.map */
