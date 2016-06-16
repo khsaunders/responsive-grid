@@ -1,0 +1,84 @@
+// @import 'susy';
+/*  color palette */
+$back-text-color: #FEFFFF;
+$light-blue: #ADDBF9;
+$primary-blue: #68Bef0;
+$middle-blue: #41A1DC;
+$grey: #ddd;
+$main: lato;
+body {
+    background: $back-text-color;
+    font-family: $main;
+}
+#container {
+    width: 90%;
+    margin: 5.6em;
+    display: inline-block;
+}
+.icons {
+    font-size: 2em;
+    letter-spacing: 8px;
+    color: $middle-blue;
+    text-align: right;
+}
+.icons:hover {
+    cursor: pointer;
+}
+.heading {
+    color: $middle-blue;
+    float: left;
+    font-size: 3em;
+    margin-right: 10em;
+}
+// .grid--row1 {
+//     display: block;
+//     margin: 1em 0.5em;
+// }
+// .grid--row2 {
+//     @extend .grid--row1;
+//     margin-left: 10em;
+// }
+.grid-tile {
+    display: inline-block;
+    background-color: $back-text-color;
+    width: 7.5em;
+    height: 9em;
+    margin: 3em 5em 2em 0;
+    padding: 4em;
+}
+.grid-tile-icon {
+    color: $middle-blue;
+    font-size: 6em;
+    text-align: center;
+    padding-bottom: 0.2em;
+}
+.grid-tile-title {
+    border-top: 0.4em solid $middle-blue;
+    padding: 0.7em 0.4em;
+    text-align: center;
+    color: $middle-blue;
+}
+.grid-tile-title:hover{
+    @extend .grid-tile-title;
+    border-bottom: 0.4em solid $back-text-color;
+    color: $back-text-color;
+}
+.grid-tile:hover{
+    @extend .grid-tile;
+    background-color: $middle-blue;
+    color: $back-text-color;
+}
+.grid-tile-icon:hover{
+    @extend .grid-tile-icon;
+    color: $back-text-color;
+}
+
+.grid-tile-desc{
+  display: none;
+  color: black;
+}
+
+.grid-tile-desc:hover{
+  @extend .grid-tile-desc;
+  display: black;
+}
