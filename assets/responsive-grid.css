@@ -1,0 +1,57 @@
+/*  color palette */
+body {
+  background: #FEFFFF;
+  font-family: lato; }
+
+#container {
+  width: 90%;
+  margin: 5.6em;
+  display: inline-block; }
+
+.icons {
+  font-size: 2em;
+  letter-spacing: 8px;
+  color: #41A1DC;
+  text-align: right; }
+
+.icons:hover {
+  cursor: pointer; }
+
+.heading {
+  color: #41A1DC;
+  float: left;
+  font-size: 3em;
+  margin-right: 10em; }
+
+.grid-tile, .grid-tile:hover {
+  display: inline-block;
+  background-color: #FEFFFF;
+  width: 7.5em;
+  height: 9em;
+  margin: 3em 5em 2em 0;
+  padding: 4em; }
+
+.grid-tile-icon, .grid-tile-icon:hover {
+  color: #41A1DC;
+  font-size: 6em;
+  text-align: center;
+  padding-bottom: 0.2em; }
+
+.grid-tile-title, .grid-tile-title:hover {
+  border-top: 0.4em solid #41A1DC;
+  padding: 0.7em 0.4em;
+  text-align: center;
+  color: #41A1DC; }
+
+.grid-tile-title:hover {
+  border-bottom: 0.4em solid #FEFFFF;
+  color: #FEFFFF; }
+
+.grid-tile:hover {
+  background-color: #41A1DC;
+  color: #FEFFFF; }
+
+.grid-tile-icon:hover {
+  color: #FEFFFF; }
+
+/*# sourceMappingURL=responsive-grid.css.map */
